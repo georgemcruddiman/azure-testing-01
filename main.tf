@@ -23,4 +23,3 @@ resource "azurerm_application_insights" "insights-dev" {
   workspace_id = "azurerm_log_analytics_workspace.law-dev.name"
   tags = {"Bill-To" = "Group Infrastructure - Hosting"}
 }
-test new branch
