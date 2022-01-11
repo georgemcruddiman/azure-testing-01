@@ -12,5 +12,3 @@ resource "azurerm_resource_group" "rg-uat" {
   location = "westus2"
   tags = {"Bill-To" = "Group Infrastructure - Hosting"}
 }
-edit2
-edit3
