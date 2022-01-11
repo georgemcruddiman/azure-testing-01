@@ -16,11 +16,11 @@ resource "azurerm_log_analytics_workspace" "law-dev" {
   tags = {"Bill-To" = "Group Infrastructure - Hosting"}
 }
 
-resource "azurerm_application_insights" "insights-dev" {
-  name = "grtest-dev-app-insights"
-  location = "westus2"
-  resource_group_name = "azurerm_resource_group.rg-dev.name"
-  application_type = "web"
-  workspace_id = "azurerm_log_analytics_workspace.law-dev.id"
-  tags = {"Bill-To" = "Group Infrastructure - Hosting"}
-}
+#resource "azurerm_application_insights" "insights-dev" {
+#  name = "grtest-dev-app-insights"
+#  location = "westus2"
+#  resource_group_name = "azurerm_resource_group.rg-dev.name"
+#  application_type = "web"
+#  workspace_id = "azurerm_log_analytics_workspace.law-dev.id"
+#  tags = {"Bill-To" = "Group Infrastructure - Hosting"}
+#}
