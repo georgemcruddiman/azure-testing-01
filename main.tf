@@ -13,3 +13,4 @@ resource "azurerm_resource_group" "rg-uat" {
   tags = {"Bill-To" = "Group Infrastructure - Hosting"}
 }
 edit2
+edit3
